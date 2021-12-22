@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Website</title>
+</head>
+
+<body class="row bg-dark  text-light w-100 vh-100 position-relative">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width: 80px">
+
+        <div class="container">
+            <div>
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                        <a href="#" class="nav-link active" aria-current="page">
+                            <i class="bi bi-house text-success"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="About">
+                        <a href="#about" class="nav-link " aria-current="page">
+                            <i class="bi bi-person text-success"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Services">
+                        <a href="#services" class="nav-link " aria-current="page">
+                            <i class="bi bi-briefcase text-success"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact">
+                        <a href="#contact" class="nav-link " aria-current="page">
+                            <i class="bi bi-telephone text-success"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+
+    <header class="position-relative vh-100 col-10 col-md-4"
+        style="background: url(https://source.unsplash.com/SvKJUXV_5cQ) center/cover no-repeat;">
+
+        <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+            <h2 class="display-2 lh-lg">
+                Mcwachira
+            </h2>
+
+            <h4 class="font-monospace fs-1">Fullstack Web Developer</h4>
+            <div class="row mx-auto mt-3">
+                <ul class="row list-unstyled fs-5">
+
+                    <li class="col"><a href=""><i class="bi bi-github text-light"></i></a></li>
+                    <li class="col"><a href=""><i class="bi bi-linkedin text-light"></i></a></li>
+                    <li class="col"><a href=""><i class="bi bi-twitter text-light"></i></a></li>
+                    <li class="col"><a href=""><i class="bi bi-globe text-light"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="row col-12 col-md-8">
+        <section class="ms-3" id="about">
+            <h2 class="font-monospace mt-4">About Me</h2>
+
+            <div class="row col-12 text-success mt-3">
+                <div class="col">Exp / 2+ </div>
+                <div class="col">Location / Berlin </div>
+                <div class="col"> Domain / Freelancer</div>
+            </div>
+            <p class="lead text-secondary mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias minus
+                accusantium repellat
+                maiores officiis quasi architecto molestiae quam nam consectetur iusto, officia magnam sint accusamus,
+                minima obcaecati, sunt veritatis debitis!</p>
+
+            <button class="btn btn-outline-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#ocAbout"
+                aria-controls="ocAbout">
+                Learn More</button>
+
+            <!-- ABOUT > CV BUTTON & CONTENT-->
+
+            <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="1" id="ocAbout">
+                <div class="offcanvas-header">
+                    <h5 class="text-success text-center text-uppercase">Skills</h5>
+                    <button class="btn-close btn-close-white" data-bs-dismiss='offcanvas' type="button"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <h4 class="display-3 mt-2 mb-3">
+                        Charles Wachira
+                    </h4>
+                    <h4 class="display-6 mb-4">Full Stack Web Developer</h4>
+                    <h4 class="display-6 font-monospace ">About Me</h4>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque quos accusantium
+                        commodi eos, tenetur illum molestias eligendi natus eveniet ab temporibus dignissimos illo. Qui,
+                        doloremque veniam? Est, voluptatem.
+                    </p>
+
+                    <h4 class="display-6 font-monospace ">Career Objectives</h4>
+                    <p class="text-white-50">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe neque quos accusantium
+                        commodi eos, tenetur illum molestias eligendi natus eveniet ab temporibus dignissimos illo. Qui,
+                        doloremque veniam? Est, voluptatem.
+                    </p>
+                    <h4 class="display-6 font-monospace ">Skills <small class="fs-6">(and still growing)</small></h4>
+                    <p class="text-white-50">
+                    <div class="progress mb-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            role="progressbar" style="width: 95%;">
+
+                        </div>
+                    </div>
+                    </p>
+                    <p class="text-white-50">Javascript</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            role="progressbar" style="width: 95%;">
+
+                        </div>
+                    </div>
+
+                    <p class="text-white-50">React</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            role="progressbar" style="width: 75%;">
+
+                        </div>
+                    </div>
+
+                    <p class="text-white-50">Node</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            role="progressbar" style="width: 65%;">
+
+                        </div>
+                    </div>
+
+                    <p class="text-white-50">MongoDb</p>
+                    <div class="progress mb-1">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+                            role="progressbar" style="width: 55%;">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="ms-3" id="services">
+            <h2 class="font-monospace mt-4">My Services</h2>
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h4 class="card-title mt-3">Development</h4>
+                        <p class="card-text">Building a custom solution based on your technical specifications</p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_dev" aria-controls="#oc_dev"> More </button>
+
+
+                        <!-- SERVICES > DEVELOPMENT OFFCANVAS -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="1" id="oc_dev">
+                            <div class="offcanvas-header">
+                                <h4 class="text-success">Web Development </h4>
+                                <button class="btn-close btn-close-white" type="button"
+                                    data-bs-dismiss='offcanvas'></button>
+                            </div>
+                            <div class="offcanvas-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h4 class="card-title mt-3">SEO</h4>
+                        <p class="card-text">Building a custom solution based on your technical specifications</p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_seo" aria-controls="#oc_seo"> More </button>
+
+                        <!-- SERVICES > SEO OFFCANVAS -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="1" id="oc_seo">
+                            <div class="offcanvas-header">
+                                <h4 class="text-success">SEO</h4>
+                                <button class="btn-close btn-close-white" type="button"
+                                    data-bs-dismiss='offcanvas'></button>
+                            </div>
+                            <div class="offcanvas-body"></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h4 class="card-title mt-3">DATABASE</h4>
+                        <p class="card-text">Building a custom solution based on your technical specifications</p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_db" aria-controls="#oc_db"> More </button>
+
+                        <!-- SERVICES > DATABASE OFFCANVAS -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="1" id="oc_db">
+                            <div class="offcanvas-header">
+                                <h4 class="text-success"> DATABASE</h4>
+                                <button class="btn-close btn-close-white" type="button"
+                                    data-bs-dismiss='offcanvas'></button>
+                            </div>
+                            <div class="offcanvas-body"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col card bg-transparent">
+                    <div class="card-body">
+                        <i class="bi bi-display h1 text-success"></i>
+                        <h4 class="card-title mt-3">DATA SECURITY</h4>
+                        <p class="card-text">Building a custom solution based on your technical specifications</p>
+                        <button class="btn btn-outline-success w-100" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#oc_ds" aria-controls="#oc_ds"> More </button>
+                        <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+                        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="1" id="oc_ds">
+                            <div class="offcanvas-header">
+                                <h4 class="text-success"> DATA SECURITY </h4>
+                                <button class="btn-close btn-close-white" type="button"
+                                    data-bs-dismiss='offcanvas'></button>
+                            </div>
+                            <div class="offcanvas-body"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ms-3" id="contact">
+            <h2 class="font-monospace mt-4">Contact Me</h2>
+
+            <ul class="row list-unstyled text-sm-start text-center">
+                <li class="text-success"></li>
+                <li class="col-6 p-2"><i class="bi bi-geo-alt text-success"></i> 21 jump street</li>
+                <li class="col-6 p-2"><i class="bi bi-telephone text-success"></i> +555-555-555</li>
+                <li class="col-6 p-2"><i class="bi bi-phone text-success"></i>+254000000</li>
+                <li class="col-6 p-2"><i class="bi bi-envelope text-success"></i>joe@outlook.com</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="position-fixed-bottom bottom-0 bg-success w-100 text-center">
+        <p>
+            all right reserved
+        </p>
+
+    </footer>
+    <!-- script Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- script for tooltips -->
+    <script>
+        var tooltipTriggerList = [].slice.call(
+            document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        );
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    </script>
+</body>
+
+</html>
